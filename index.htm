@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Now</title>
+    <style>
+    
+    </style>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <title>Tweet Now</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;"">
+          <h1 class="navbar-brand m-auto" style="color: #008075"">Tweet Now</h1>
+      
+        </nav>
+        <div class="card card-body">
+  
+      
+  
+          <span class="msg"></span>
+  
+          <form>
+            <div class="row mt-4">
+              <textarea type = 'text' placeholder='Your Tweet Goes Here'name="" class="tweet-input" cols="300" rows="10"></textarea>
+            <button class="btn btn-block mt-3 btn-info add-tweet ">Post-Tweet</button>
+          </form>
+           
+      </div>
+
+      <div class="tweetMe">
+        <input
+        type="text"
+        name="filter"
+        class="form-control mt-3"
+        id="filter"
+        placeholder="Search Your Tweet Here ..."
+      />
+        <ul class="list-group collection">
+   
+           </ul>
+
+      </div>
+
+</div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
